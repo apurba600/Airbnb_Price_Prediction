@@ -1,9 +1,11 @@
+Airbnb Price Prediction And Reviews Sentiment Analysis
+
 ![DALL·E 2023-10-17 13 43 26 - Illustration of a digital interface showcasing an Airbnb listing in Toronto, displaying high ratings, photos of a chic urban loft, and a 'Book Now' bu](https://github.com/apurba600/Airbnb_Price_Prediction/assets/90535174/318a8331-50ac-43a0-8d52-32ae4eb86db0)
 
 
 
 
-Introduction
+**Introduction**
 
 One main challenge faced by Airbnb hosts, especially newcomers to the platform, is the
 difficulty in optimizing their listings. This includes determining the best area to invest in a
@@ -11,7 +13,7 @@ property for Airbnb hosting and gaining insights into pricing, occupancy rates, 
 factors. These challenges can lead to suboptimal decision-making and potentially lower profits
 for hosts.
 
-Overview
+** Project Overview**
 
 My project's goal is to develop a machine-learning model that provides data-driven insights to
 Airbnb hosts. This model would consider various factors such as location, property type,
