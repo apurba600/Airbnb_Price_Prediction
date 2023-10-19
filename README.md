@@ -43,7 +43,23 @@ further benefiting hosts.
 
 We got the dataset from inside Airbnb and open data.
 
-Some of the preliminary analyses we hypothesise will give a high correlation to Price is:
+The dataset consists of 42,811 entries and 75 columns. Here are some key columns from the dataset:
+
+- id: Unique identifier for each listing.
+- listing_url: URL of the listing.
+- name: Name of the listing.
+- description: Description of the listing.
+- neighborhood_overview: Overview of the neighborhood.
+- host_id: Identifier for the host.
+- host_name: Name of the host.
+- host_since: The date the host joined Airbnb.
+- host_response_time: Time taken by the host to respond to inquiries.
+- review_scores_location: Review score based on location.
+- instant_bookable: Whether the property can be booked instantly.
+- reviews_per_month: Average number of reviews per month.
+- bathroom_num: Number of bathrooms in the listing.
+
+Some of the preliminary analyses we hypothesize will give a high correlation to Price are:
 
 - bathroom
 - location
@@ -53,4 +69,4 @@ Some of the preliminary analyses we hypothesise will give a high correlation to 
 
 # Exploratory Data Analysis (EDA)
 
-We will start by importing the files and analyzing the data to understand the distribution and relationship among features. We will also remove duplicate and null values, describe and get info on the data, convert target values to proper datatype 
+We will start by importing the files and analyzing the data to understand the distribution and relationship among features. We will also remove duplicate and null values, describe and get info on the data, convert target values to proper data 
