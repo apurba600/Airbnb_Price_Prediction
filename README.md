@@ -15,23 +15,42 @@ for hosts.
 
 # Project Overview
 
-My project's goal is to develop a machine-learning model that provides data-driven insights to
-Airbnb hosts. This model would consider various factors such as location, property type,
+The project's goal is to develop a machine-learning model that provides price prediction, 
+relationship of reviews with profitability and data-driven insights to Airbnb hosts. 
+
+This model would consider various factors such as location, property type,
 seasonal trends, and local demand to help hosts make informed decisions about their listings.
 By leveraging this model, hosts can improve their investment decisions, enhance the quality of
 their listings, and ultimately maximize their profitability. This project primarily benefits new and
 experienced Airbnb hosts who are seeking a data-driven approach to optimize their properties
 and increase their overall success in the Airbnb marketplace.
+
 Machine learning offers various solutions to the challenges. Through the analysis of extensive
 datasets, ML models allow hosts to make data-driven decisions by identifying key variables for
 optimization, including location, property type, pricing strategies, and amenities. Utilizing
 supervised techniques like linear regression, neural networks, and XGBoost, hosts can
 construct predictive models to forecast occupancy rates and rental income, facilitating proactive
-planning. Unsupervised learning aids in uncovering hidden patterns, such as clustering similar
-properties, enabling hosts to grasp their competitive landscape better.
+planning. 
+
 By optimizing Airbnb listings through machine learning, it is anticipated to boost hosts
 profitability, potentially amounting to thousands of dollars in additional earnings. Hosts can also
 save dozens of hours each month, potentially adding up to thousands of hours in time saved
 collectively, which they can spend with friends and family.Additionally, the project's focus on
 improving the guest experience may lead to higher guest satisfaction and more positive reviews,
 further benefiting hosts.
+
+# Dataset
+
+We got the dataset from inside Airbnb and open data.
+
+Some of the preliminary analyses we hypothesise will give a high correlation to Price is:
+
+- bathroom
+- location
+- bedroom
+- amenities
+- reviews
+
+# Exploratory Data Analysis (EDA)
+
+We will start by importing the files and analyzing the data to understand the distribution and relationship among features. We will also remove duplicate and null values, describe and get info on the data, convert target values to proper datatype 
