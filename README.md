@@ -5,7 +5,7 @@ Airbnb Price Prediction And Reviews Sentiment Analysis
 
 
 
-**Introduction**
+# Introduction
 
 One main challenge faced by Airbnb hosts, especially newcomers to the platform, is the
 difficulty in optimizing their listings. This includes determining the best area to invest in a
@@ -13,7 +13,7 @@ property for Airbnb hosting and gaining insights into pricing, occupancy rates, 
 factors. These challenges can lead to suboptimal decision-making and potentially lower profits
 for hosts.
 
-** Project Overview**
+# Project Overview
 
 My project's goal is to develop a machine-learning model that provides data-driven insights to
 Airbnb hosts. This model would consider various factors such as location, property type,
