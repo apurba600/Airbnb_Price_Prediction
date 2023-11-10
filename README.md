@@ -102,7 +102,8 @@ Evaluating Our First Model:
 
 Measured how well our model predicts prices with R-squared (the higher, the better).
 Used Mean Squared Error (MSE) to understand the average error in our price predictions.
-Improving the Model:
+
+- Improved the Model:
 
 Removed features that were too similar to each other to make the model simpler and potentially more accurate.
 Checked the updated model's performance with the same R-squared and MSE metrics to see if our changes helped.
