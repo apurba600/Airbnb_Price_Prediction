@@ -84,9 +84,9 @@ Methods used for gathering Airbnb listings and review data.
 Data Preprocessing
 
 - Cleaning: Handling missing values and outliers.
-Feature Engineering: Extracting new insights, such as host tenure and amenities count.
-Encoding: Converting categorical data into a machine-readable format.
-Exploratory Data Analysis (EDA)
+- Feature Engineering: Extracting new insights, such as host tenure and amenities count.
+- Encoding: Converting categorical data into a machine-readable format.
+- Exploratory Data Analysis (EDA)
 
 - Visualization: Creating graphs to understand data distributions and relationships.
 Correlation Analysis: Identifying relationships between features and price.
