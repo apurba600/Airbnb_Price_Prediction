@@ -70,3 +70,32 @@ Some of the preliminary analyses we hypothesize will give a high correlation to 
 # Exploratory Data Analysis (EDA)
 
 We will start by importing the files and analyzing the data to understand the distribution and relationship among features. We will also remove duplicate and null values, describe and get info on the data, convert target values to proper data 
+
+ # Airbnb Price Prediction Project Flowchart:
+
+Project Overview
+
+Introduction to the project's aim and significance.
+Definition of the problem statement.
+Data Collection
+
+Description of data sources.
+Methods used for gathering Airbnb listings and review data.
+Data Preprocessing
+
+Cleaning: Handling missing values and outliers.
+Feature Engineering: Extracting new insights, such as host tenure and amenities count.
+Encoding: Converting categorical data into a machine-readable format.
+Exploratory Data Analysis (EDA)
+
+Visualization: Creating graphs to understand data distributions and relationships.
+Correlation Analysis: Identifying relationships between features and price.
+Assumption Testing: Checking for linearity, normality, and homoscedasticity.
+Model Building
+
+Baseline Model: Creating a vanilla linear regression model to set a performance benchmark.
+Model Refinement: Improving the model by addressing multicollinearity and re-evaluating feature significance.
+Model Evaluation
+
+Performance Metrics: Assessing the model using R-squared and Mean Squared Error (MSE).
+Diagnostics: Using plots like Q-Q and Residuals vs. Fitted Values to diagnose model fit.
