@@ -73,29 +73,36 @@ We will start by importing the files and analyzing the data to understand the di
 
  # Airbnb Price Prediction Project Flowchart:
 
-Project Overview
+- Project Overview
 
-Introduction to the project's aim and significance.
+- Introduction to the project's aim and significance.
 Definition of the problem statement.
 Data Collection
 
-Description of data sources.
+- Description of data sources.
 Methods used for gathering Airbnb listings and review data.
 Data Preprocessing
 
-Cleaning: Handling missing values and outliers.
+- Cleaning: Handling missing values and outliers.
 Feature Engineering: Extracting new insights, such as host tenure and amenities count.
 Encoding: Converting categorical data into a machine-readable format.
 Exploratory Data Analysis (EDA)
 
-Visualization: Creating graphs to understand data distributions and relationships.
+- Visualization: Creating graphs to understand data distributions and relationships.
 Correlation Analysis: Identifying relationships between features and price.
 Assumption Testing: Checking for linearity, normality, and homoscedasticity.
 Model Building
 
-Baseline Model: Creating a vanilla linear regression model to set a performance benchmark.
-Model Refinement: Improving the model by addressing multicollinearity and re-evaluating feature significance.
-Model Evaluation
+- Baseline Modeling and Evaluation:
 
-Performance Metrics: Assessing the model using R-squared and Mean Squared Error (MSE).
-Diagnostics: Using plots like Q-Q and Residuals vs. Fitted Values to diagnose model fit.
+Starting with Basic model
+
+Built a simple linear regression model using all data features to predict Airbnb prices.
+Evaluating Our First Model:
+
+Measured how well our model predicts prices with R-squared (the higher, the better).
+Used Mean Squared Error (MSE) to understand the average error in our price predictions.
+Improving the Model:
+
+Removed features that were too similar to each other to make the model simpler and potentially more accurate.
+Checked the updated model's performance with the same R-squared and MSE metrics to see if our changes helped.
