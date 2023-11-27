@@ -39,6 +39,22 @@ collectively, which they can spend with friends and family.Additionally, the pro
 improving the guest experience may lead to higher guest satisfaction and more positive reviews,
 further benefiting hosts.
 
+# Dependencies
+Python Libraries (refer to requirements.txt):
+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- plotly
+- statsmodels
+- scipy
+- scikit-learn
+- tensorflow
+- Xgboost
+- re
+
+
 # Dataset
 
 We got the dataset from inside Airbnb and open data.
@@ -93,7 +109,13 @@ Correlation Analysis: Identifying relationships between features and price.
 Assumption Testing: Checking for linearity, normality, and homoscedasticity.
 Model Building
 
-- Baseline Modeling and Evaluation:
+# Feature Engineering
+
+Price Column: Did a log transformation to get a better normal distribution
+
+One hot encoding and Ordinal encoding on some of the categorical features
+
+# Baseline Modeling and Evaluation:
 
 Starting with Basic model
 
@@ -103,7 +125,45 @@ Evaluating Our First Model:
 Measured how well our model predicts prices with R-squared (the higher, the better).
 Used Mean Squared Error (MSE) to understand the average error in our price predictions.
 
-- Improved the Model:
+# Advanced Modelling
 
-Removed features that were too similar to each other to make the model simpler and potentially more accurate.
-Checked the updated model's performance with the same R-squared and MSE metrics to see if our changes helped.
+After creating a baseline with simple linear regression, we explored more complex modeling techniques to capture the complex relationships in the data:
+
+Random Forest: An ensemble method that aggregates the predictions of multiple decision trees to produce a more robust and accurate model. It's good at handling non-linear relationships.
+
+XGBoost: A gradient-boosting framework that uses bootstrapping and boosting.
+
+Neural Networks: Neural networks can capture complex patterns through their multiple layers and non-linear activation functions.
+
+Ridge Regression: This linear regression variant introduces L2 regularization to penalize large coefficients, reducing model complexity and preventing overfitting.
+
+Lasso Regression: Similar to Ridge, Lasso adds L1 regularization, which can reduce some coefficients to zero, effectively performing feature selection.
+
+# Model Optimization
+
+k-Fold Cross-Validation: This method provided a way to estimate the performance of our models. It involves partitioning the data into k subsets and training the model k times, each time using a different subset as the test set and the remaining as the training set.
+
+GridSearchCV: We utilized GridSearchCV for searching over specified parameter values for our estimators. By training and evaluating the model for every combination of parameters, we were able to identify the most effective parameters.
+
+# Model Evaluation
+
+R-squared: To quantify the amount of variance in the listing prices that our models could explain.
+
+Mean Squared Error (MSE): To measure the average squared difference between the estimated values and the actual value.
+
+Mean Absolute Error (MAE): To provide a measure of prediction accuracy, how close the predictions are to the actual outcomes on average.
+
+# Results
+
+<img width="483" alt="Screenshot 2023-11-26 at 7 04 38 PM" src="https://github.com/apurba600/Airbnb_Price_Prediction/assets/90535174/fcae120d-8943-4979-85dc-577546a73556">
+
+  
+# Discussion
+
+
+
+# Conclusion
+
+# Licensing, Acknowledgements
+
+http://insideairbnb.com/get-the-data/ - The data was taken from this link
