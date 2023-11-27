@@ -157,13 +157,9 @@ Mean Absolute Error (MAE): To provide a measure of prediction accuracy, how clos
 
 <img width="483" alt="Screenshot 2023-11-26 at 7 04 38 PM" src="https://github.com/apurba600/Airbnb_Price_Prediction/assets/90535174/fcae120d-8943-4979-85dc-577546a73556">
 
-  
-# Discussion
-
-
-
+ 
 # Conclusion
+In Conclusion, while the XG Boost model showed the highest R2 score on the test set among the various models evaluated, indicating strong predictive performance, its significant overfit (with a train R2 of 0.72) suggests it may not generalize fit as well to unseen data. The Random Forest model,on the other hand with train (R2 of 0.62) and test (R2 of 0.60) scores, showed the most reliable for predicting Airbnb prices, showing good generalization and a substantial improvement over the baseline Linear Regression model ( R2 of 0.40). The key predictors identified by the Random Forest model — room type, number of accommodations, license, and latitude — offer actionable insights for hosts looking to optimize their pricing strategies on the platform.
 
 # Licensing, Acknowledgements
-
 http://insideairbnb.com/get-the-data/ - The data was taken from this link
