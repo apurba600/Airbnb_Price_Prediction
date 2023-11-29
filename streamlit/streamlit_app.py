@@ -20,19 +20,6 @@ st.sidebar.subheader('Line chart parameters')
 plot_data = st.sidebar.multiselect('Select data', ['temp_min', 'temp_max'], ['temp_min', 'temp_max'])
 plot_height = st.sidebar.slider('Specify plot height', 200, 500, 250)
 
-
-# Custom HTML for the top navigation bar
-top_nav = """
-<div class="top-nav">
-    Airbnb Data Science Project
-    <a href="YOUR_GITHUB_LINK" target="_blank">Go to GitHub</a>
-</div>
-"""
-
-st.markdown(top_nav, unsafe_allow_html=True)
-
-
-
 # Row A
 st.markdown('### Airbnb Key Metrics')
 col1, col2, col3 = st.columns(3)
