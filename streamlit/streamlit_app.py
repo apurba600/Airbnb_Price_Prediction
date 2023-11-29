@@ -42,7 +42,7 @@ col2.metric("Wind", "9 mph", "-8%")
 col3.metric("Humidity", "86%", "4%")
 
 # Row B
-airbnb_df = pd.read_csv("data/finaldf.csv")
+airbnb_df = pd.read_csv("streamlit/data/finaldf.csv")
 
 def categorize_price(price):
     if price < 50:
