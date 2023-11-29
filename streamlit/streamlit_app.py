@@ -10,6 +10,7 @@ with open('streamlit/style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
     
 
+
 st.sidebar.subheader('Map')
 map_price_filter = st.sidebar.selectbox('Prices by', ('<50$', '50-150$', '150-250$', '>250$'))
 
