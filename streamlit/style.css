@@ -1,30 +1,9 @@
-.top-nav {
-  background-color: #FF4B4B;
-  padding: 10px 20px; /* Adjusted padding for better spacing */
-  font-size: 20px;
-  color: white;
-  text-align: center;
-  position: fixed; /* Fixed position at the top */
-  width: 100%;
-  z-index: 999;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: adds shadow for depth */
-  top: 0;
-}
-
-.top-nav a {
-  color: white;
-  text-decoration: none;
-  position: absolute; /* Absolute position within the navigation bar */
-  right: 20px; /* Adjust as needed */
-  top: 50%;
-  transform: translateY(-50%);
-}
 /* Streamlit Sidebar: Customize with logo and position */
 [data-testid="stSidebar"] {
                 background-image: url(https://www.digital.ink/wp-content/uploads/airbnb_logo_detail.jpg);
                 background-size: 300px;
                 background-repeat: no-repeat;
-                background-position: 0.2px 20px;
+                background-position: 0.2px 5px;
             }
 
 /* Streamlit Cards: Styled with shadow and border for depth */
