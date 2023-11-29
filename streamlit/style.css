@@ -21,7 +21,7 @@
 }
 /* Streamlit Sidebar: Customize with logo and position */
 [data-testid="stSidebar"] {
-  background-image: url("streamlit/airbnb_logo.png"); 
+  background-image: url(streamlit/airbnb_logo.png); 
   background-size: 200px;
 }
 
