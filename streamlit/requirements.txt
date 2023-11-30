@@ -3,5 +3,5 @@ numpy
 plotly==5.18.0
 streamlit
 plost
-Joblib
+joblib
 scikit-learn
