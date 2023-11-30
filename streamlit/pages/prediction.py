@@ -66,7 +66,7 @@ if st.button('Predict Price'):
     
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
-        st.markdown(f"<h1 style='text-align: center; color: blue;'>💲{price:.2f}</h1>", unsafe_allow_html=True)
+        st.markdown(f"<h1 style='text-align: center; color: white;'>💲{price:.2f}</h1>", unsafe_allow_html=True)
 
 
  
