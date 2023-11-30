@@ -24,8 +24,8 @@ col2.metric("Average Price/Day", "130$", "-2%")
 col3.metric("Occupancy Rate", "83%", "-6%")
 
 # Read data
-airbnb_df = pd.read_csv("data/finaldf.csv")
-raw_data = pd.read_csv("data/raw_data.csv")
+airbnb_df = pd.read_csv("streamlit/data/finaldf.csv")
+raw_data = pd.read_csv("streamlit/data/raw_data.csv")
 
 
 def categorize_price(price):
