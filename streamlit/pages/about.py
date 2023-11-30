@@ -3,7 +3,7 @@ import streamlit as st
 # Set page config
 st.set_page_config(page_title='Airbnb Price Prediction Project', layout='wide', initial_sidebar_state='expanded')
 
-with open('style.css') as f:
+with open('streamlit/style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 st.image('/Users/apurba60/Desktop/streamlit/pages/airbnb.jpg', width=700)    
