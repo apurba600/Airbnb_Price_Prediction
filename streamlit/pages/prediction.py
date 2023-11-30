@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
-import joblib
+import sklearn
+from sklearn.externals import joblib
 import plotly.graph_objects as go
 
 # Set page config
