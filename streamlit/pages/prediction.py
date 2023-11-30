@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 # Set page config
 st.set_page_config(page_title='Airbnb Price Prediction Project', layout='wide', initial_sidebar_state='expanded')
 
-with open('style.css') as f:
+with open('streamlit/style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 df = pd.read_csv("streamlit/data/modelling_section.csv")
