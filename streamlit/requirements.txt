@@ -1,4 +1,6 @@
 pandas==1.3.3
+numpy
 plotly==5.18.0
-streamlit 
+streamlit
 plost
+Joblib
