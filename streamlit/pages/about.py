@@ -111,7 +111,7 @@ st.markdown('''
 - **Mean Absolute Error (MAE)**: Provides a measure of prediction accuracy.  
 ''')
 
-st.image('/Users/apurba60/Desktop/streamlit/pages/result.jpg', width=700) 
+st.image('streamlit/pages/result.jpg', width=700) 
 
 st.markdown('''
 ### Conclusion
