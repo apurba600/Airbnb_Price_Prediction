@@ -6,7 +6,7 @@ st.set_page_config(page_title='Airbnb Price Prediction Project', layout='wide', 
 with open('streamlit/style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-st.image('/Users/apurba60/Desktop/streamlit/pages/airbnb.jpg', width=700)    
+st.image('streamlit/pages/airbnb.jpg', width=700)    
 
 # Main Title
 st.title('Airbnb Price Prediction Project')
