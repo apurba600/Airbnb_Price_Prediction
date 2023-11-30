@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import sklearn
+from xgboost import XGBRegressor
+from sklearn.ensemble import RandomForestRegressor
 import joblib
 import plotly.graph_objects as go
 
