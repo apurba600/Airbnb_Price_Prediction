@@ -9,12 +9,12 @@ st.set_page_config(page_title='Airbnb Price Prediction Project', layout='wide', 
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-df = pd.read_csv("data/modelling_section.csv")
+df = pd.read_csv("streamlit/data/modelling_section.csv")
 
 # Load the models
-model1 = joblib.load('model/linear_regression_model.pkl')
-model2 = joblib.load('model/Randomforest.pkl')
-model3 = joblib.load('model/XGboost_model.pkl')
+model1 = joblib.load('streamlit/model/linear_regression_model.pkl')
+model2 = joblib.load('streamlit/model/Randomforest.pkl')
+model3 = joblib.load('streamlit/model/XGboost_model.pkl')
 
 # Mapping for model selection
 model_mapping = {
